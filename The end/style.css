@@ -1,0 +1,89 @@
+/* General Page Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Logo Styling */
+.logo-container {
+    width: 200px;
+    height: 200px;
+    display: block;
+    align-items: center;
+    border-radius: 50%;
+    padding-bottom: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* Login Box Styling */
+.login-container {
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label,
+.login-container input,
+.login-container button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #ffffff;
+    line-height: 1.2;
+    height: 30px;
+    font-size: 18px;
+}
+
+.login-container button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    
+}
+
+.login-container button:hover {
+    background-color: gray;
+}
+
+/* Create Account Link */
+.create-account {
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
